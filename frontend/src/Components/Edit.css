@@ -1,0 +1,25 @@
+.containers{
+    margin-top: 100px;
+    margin-left: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: grid;
+    max-width: 500px;
+    justify-items: center;
+}
+.inn{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.inn input {
+    padding: 5px 10px 5px;
+    font-size: medium;
+    font-weight: 500rem;
+}
+
+.inn label{
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 10px;
+}

@@ -1,0 +1,56 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .container label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .container button {
+    width: 100%;
+    background-color: greenyellow;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container button:hover {
+    background-color: darkgreen;
+    color: #fff;
+  }
+
+  .innn{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+.innn input{
+    margin-left: 10px;
+    border: 2px solid black;
+    color: #000;
+    font-size: medium;
+}
+
+.innn label{
+    font-size: large;
+    margin-top: 6px;
+}

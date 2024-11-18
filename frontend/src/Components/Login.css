@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    height: 100px;
+    background-color: rgb(18, 18, 18);
+
+}
+
+.log{
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.twoo {
+    display: flex;
+    align-items: center; /* Vertically center username and logout button */
+    gap: 10px; /* Add some space between the username and logout button */
+    margin-left: auto; /* Push the section to the right */
+}
+
+.userr{
+    color: aliceblue;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.lii {
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    font-size:large;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+li {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.container{
+    backdrop-filter: blur(10px);
+    margin-left: 500px;
+    justify-items: center;
+    max-width: 500px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 2px solid rgb(12, 12, 12);
+}
+
+.container input{
+    display: grid;
+    padding: 8px;
+    margin-bottom: 30px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* max-width: 350px; */
+}
+
+.but{
+    padding: 9px 35px 9px;
+    background: greenyellow;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 20px;
+
+}
